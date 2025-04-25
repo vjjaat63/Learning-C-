@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+class record
+{
+ string name;
+ int age;
+  public:
+   record(string name , )
+    {
+      cout<<"enter name : ";
+      cin>>name;
+      cout<<"age : ";
+      cin>>age;
+    }

@@ -1,0 +1,54 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"Enter the number of elements in first and second array : " <<endl;
+cin>>a>>b;
+int A[a],B[b];
+cout<<"Enter the elements in first array : ";
+for(int i=0;i<a;i++)
+cin>>A[i];
+cout<<"Enter the elements in second array : ";
+for(int j=0;j<b;j++)
+cin>>B[j];
+int C[a+b];
+if(a==b)
+{
+for(int i=0;i<a;i++)
+{
+C[2*i]=A[i];
+C[2*i+1]=B[i];
+}
+}
+else if(a>b)
+{
+for(int i=0;i<b;i++)
+{
+C[2*i]=A[i];
+C[2*i+1]=B[i];
+}
+int k = 2 * b;
+for (int i = b; i < a; i++)
+{
+C[k++] = A[i];
+}
+}
+else
+{
+for(int i=0;i<a;i++)
+{
+C[2*i]=A[i];
+C[2*i+1]=B[i];
+}
+int l=2*a;
+for (int i = a; i < b; i++)
+{
+C[l++] = B[i];
+}
+}
+
+for(int i=0;i<a+b;i++)
+cout<<C[i]<<" ";
+}
+ 

@@ -1,0 +1,1 @@
+{"name":"Local: temp","url":"c:\\Users\\vjjha\\OneDrive\\Desktop\\lab\\assign6\\temp.cpp","tests":[{"id":1739455019834,"input":"6\n1\n3\n5\n100\n999\n1000\n","output":"First\nSecond\nFirst\nFirst\nSecond\nFirst\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\vjjha\\OneDrive\\Desktop\\lab\\assign6\\temp.cpp","group":"local","local":true}
